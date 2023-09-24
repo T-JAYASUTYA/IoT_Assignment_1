@@ -1,0 +1,16 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -UICD -DL -O11111114 -fo10 -N"C:\Jayasurya_710021106313\IOT LAB\Assignment\UART communication between arduino and pic\pic_program.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Jayasurya_710021106313\IOT LAB\Assignment\UART communication between arduino and pic\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "pic_program.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	pic_program.c
+error: 5	324	Undeclared identifier 'strlen' in expression	pic_program.c
+warning: 13	1509	Generated baud rate is 9615 bps (error = 0.16 percent)	pic_program.c
+error: 13	312	Internal error 'UART1_Init not found'	pic_program.c
+error: 16	324	Undeclared identifier 'UART1_Write_Text' in expression	pic_program.c
+error: 17	324	Undeclared identifier 'UART1_Write' in expression	pic_program.c
+error: 18	324	Undeclared identifier 'UART1_Write' in expression	pic_program.c
+error: 22	324	Undeclared identifier 'UART1_Data_Ready' in expression	pic_program.c
+error: 22	317	Operator '' is not applicable to these operands ''	pic_program.c
+error: 24	324	Undeclared identifier 'uart1_raed' in expression	pic_program.c
+error: 25	324	Undeclared identifier 'UART1_write' in expression	pic_program.c
+error: 28	417	Too many chars	pic_program.c
+error: 30	324	Undeclared identifier 'UART1_Write_Text' in expression	pic_program.c
+error: 0	102	Finished (with errors): 23 Sep 2023, 19:00:37	pic_program.mcppi
